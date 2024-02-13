@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <title>Vücut Kitle İndeksi Hesapla</title>
         <link rel="stylesheet" href="styles.css">
@@ -9,29 +10,39 @@
 
     </head>
     <body>
-        <header  id="baslik">
-        <h1>VKİ Hesaplayıcı</h1>    
+        <div id="app">
+          <header  id="baslik" class="row">
+            <h1>VKİ Hesapla</h1>    
         </header>
-        <nav id="menu">
-            <a href="index.html">VKİ Hesapla</a>
-            <a href="nedir.html">VKİ Nedir?</a>
+        <nav id="menu" class="row">
+            <a id="buton" href="index.html">VKİ Hesapla</a>
+            <a id="buton" href="nedir.html">VKİ Nedir?</a>
         </nav>
-        <main id="sayfa">
+        <main id="sayfa" class="row">
             <div id="hesapkutu">
                 <form>
-                    <label for="boy">Boy</label>
-                    <input type="text" id="boy" value="Boy">
-                    <br>
-                    <label for="kilo">Kilo</label>
-                    <input type="text" id="kilo" value="kilo">
-                    <br>
+                    <div>
+                        <label for="boy">Boy (cm)</label>
+                        <input type="text" id="boy" value="Boy">
+                        
+                    </div>
+                    <div>
+                        <label for="kilo">Kilo (kg)</label>
+                        <input type="text" id="kilo" value="Kilo">
+                        
+                    </div>
+                   
+                    
+                    
                     <input type="button" id="hesapla" value="Hesapla">
 
                 </form>
             </div>
 
 
-        </main>
+        </main>  
+        </div>
+        
 
     </body>
 </html>

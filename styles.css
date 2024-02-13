@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    /*border-style: solid;*/
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+   
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: darkslategrey;
+    
+}
+
+#app {
+    background-color: chocolate;
+
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+   
+    
+
+}
+
+#menu {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+#buton {
+    float: unset;
+    background-color: lightblue;
+    margin-left: 50px;
+    margin: auto;
+    
+}
+
+#sayfa {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#hesapla {
+    margin: 10px;
+    padding: 10px;
+    color: rebeccapurple;
+    font-family: fantasy;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+#boy,#kilo {
+    
+    text-align: center;
+    font-size: large;
+    max-width: 100%
+}
+
+
+label {
+    max-width: 100%;
+    font-size: large;
+    padding: auto;
+    margin: auto;
+}
